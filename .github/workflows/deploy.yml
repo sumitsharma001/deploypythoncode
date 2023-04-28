@@ -15,6 +15,6 @@ jobs:
       - name: install pytest project
         run:  pip install pytest
       - name: test the code
-        run:  pytest deploypythoncode/test/tests*
+        run:  pavelzw/pytest-action@v2
 
 
